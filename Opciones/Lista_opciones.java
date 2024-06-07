@@ -1,6 +1,6 @@
 package Opciones;
 
-public class Lista_Opciones {
+public class Lista_opciones {
     //Carga y muestra las opciones en grupos de dos, cada grupo en una línea separada.
     public static void cargarOpciones(String[] opciones) {
 
@@ -20,7 +20,7 @@ public class Lista_Opciones {
 
     }
 
-    /** * Encuentra y devuelve el elemento más grande en el array listaDeOpciones. * * @param listaDeOpciones El array de opciones. * @return El elemento más grande encontrado. */ public static String encontrarElementoMasGrande (String[] listaDeOpciones) {
+    public static String encontrarElementoMasGrande (String[] listaDeOpciones) {
         String elementoMasGrande = listaDeOpciones[0];
 
         for (String opcion : listaDeOpciones) {

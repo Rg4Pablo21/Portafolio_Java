@@ -1,15 +1,16 @@
 package Lista;
+import Opciones.Lista_opciones;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import Opciones.Lista_opciones;
-public class ListaDeCompras {
+public class lista_de_compras {
 
     public static String[] opciones6 = {"Lista de compras", "Salir"};
 
     //Programa
     public static void programa(){
-        Lista_opciones.cargaOpciones(opciones6);
+        Lista_opciones.cargarOpciones(opciones6);
 
         Scanner opcion = new Scanner(System.in);
         System.out.println("[?]: ");
@@ -20,7 +21,7 @@ public class ListaDeCompras {
                 crearLista();
                 break;
             case 2:
-                System.out.println("Salir");
+                crearLista();
                 break;
         }
     }
@@ -36,9 +37,9 @@ public class ListaDeCompras {
         double rPc;
 
         for (int i = 1; i<=3; i++){
-            Scanner item=new Scanner(System.in);
+            Scanner item1=new Scanner(System.in);
             System.out.println("Producto: ");
-            rP = item.nextLine();
+            rP = item1.nextLine();
             System.out.println("Precio: ");
             rPc = item.nextDouble();
 
