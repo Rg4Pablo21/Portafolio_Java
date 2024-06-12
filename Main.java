@@ -2,6 +2,7 @@
     import Interfaz_grafica.Banner;
     import MisMetodos.Lista_opciones;
     import IMC.IMC;
+    import MisMetodos.MisMetodos;
     import conversor.metros_kilometros;
     import calculadora.mate;
     import Lista.lista_de_compras;
@@ -27,12 +28,15 @@
             do {
                 // nombreClase.nombreMetodo
                 Banner.mensaje_1();
+                MisMetodos.LimpiarConsola();
                 Lista_opciones.cargarOpciones(listaDeOpciones);
 
                 Scanner intOpciones = new Scanner(System.in);
                 System.out.print("[?]: ");
                 int opcion = intOpciones.nextInt();
                 System.out.println("---------------------------------------------------------------------------------------");
+
+                MisMetodos.imprimirLinea();
 
                 // Cargar Opción del Usuario
                 switch (opcion) {
@@ -49,7 +53,7 @@
                         Banner.mensaje_1();
                         break;
                     case 5:
-
+                        
                         break;
                     case 6:
                         lista_de_compras.crearLista();
