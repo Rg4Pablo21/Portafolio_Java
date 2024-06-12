@@ -1,11 +1,11 @@
     // Importar del nombrePaquete.nombreClase
     import Interfaz_grafica.Banner;
-    import Opciones.Lista_opciones;
-    import programas.IMC;
-    import programa.metros_kilometros;
-    import matematicas.mate;
+    import MisMetodos.Lista_opciones;
+    import IMC.IMC;
+    import conversor.metros_kilometros;
+    import calculadora.mate;
     import Lista.lista_de_compras;
-    import Billetes.monedas;
+    import conversor.monedas;
 
     // Importar de NombreLibreria.NombrePaquete.NombreClase
     import java.util.Scanner;
@@ -18,7 +18,7 @@
             String[] listaDeOpciones = {
                     "Calculadora", "IMC",
                     "Fahrenheit / Celsius", "Calcular edad",
-                    "Grados", "Lista de Compras",
+                    "conversor", "Lista de Compras",
                     "Conversor Monedas", "Opción_8",
                     "Opción_9", "Salir" };
 

@@ -7,13 +7,13 @@ Este portafolio es una recopilación de los proyectos y ejercicios realizados a 
 
 # Main 
 * Archivo: `Main.java`
-* Descripción: Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
+* Descripción: Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes IMC.
 
 # Conversor
 * Archivo `Main.Java`
 * Descripción: Un programa que permite la conversión entre diferentes unidades de medida.
 
-# Grados Farenheit
+# conversor Farenheit
 * Archivo : `Farenheit.Java`
 * Descripción: Convierte temperaturas entre Celsius, Fahrenheit y Kelvin.
 
@@ -31,9 +31,9 @@ Este portafolio es una recopilación de los proyectos y ejercicios realizados a 
 
 # Mis Métodos
 * Archivo: `Mis_Metodos.Java`
-* Descripción: Colección de métodos utilitarios que se pueden reutilizar en otros programas.
+* Descripción: Colección de métodos utilitarios que se pueden reutilizar en otros IMC.
  
-# Opciones 
+# MisMetodos 
 * Archivo: `Lista_Opciones.Java`
 * Descripción: Maneja una lista de opciones seleccionables, útil para menús y selección de configuraciones.
 

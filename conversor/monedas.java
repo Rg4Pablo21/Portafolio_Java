@@ -1,6 +1,6 @@
-package Billetes;
+package conversor;
 
-import Opciones.Lista_opciones;
+import MisMetodos.Lista_opciones;
 import java.util.Scanner;
 
 public class monedas {

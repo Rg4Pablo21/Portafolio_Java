@@ -1,7 +1,6 @@
-package programa;
+package conversor;
 import java.util.Scanner;
 import Interfaz_grafica.Banner;
-import Opciones.Lista_opciones;
 
 
 public class metros_kilometros {
