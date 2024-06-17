@@ -7,6 +7,7 @@
     import calculadora.mate;
     import Lista.lista_de_compras;
     import conversor.monedas;
+    import libros.Biblioteca;
 
     // Importar de NombreLibreria.NombrePaquete.NombreClase
     import java.util.Scanner;
@@ -20,7 +21,7 @@
                     "Calculadora", "IMC",
                     "Fahrenheit / Celsius", "Calcular edad",
                     "conversor", "Lista de Compras",
-                    "Conversor Monedas", "Opción_8",
+                    "Conversor Monedas", "Biblioteca ",
                     "Opción_9", "Salir" };
 
             boolean programaEnEjecucion = true;
@@ -34,8 +35,7 @@
                 Scanner intOpciones = new Scanner(System.in);
                 System.out.print("[?]: ");
                 int opcion = intOpciones.nextInt();
-                System.out.println("---------------------------------------------------------------------------------------");
-
+                System.out.print("------------------------------");
                 MisMetodos.imprimirLinea();
 
                 // Cargar Opción del Usuario
@@ -62,13 +62,13 @@
                         monedas.programa();
                         break;
                     case 8:
-                        System.out.println("Opción 8");
+                        Biblioteca.programa();
                         break;
                     case 9:
-                        System.out.println("Opción 9");
+                        System.out.print("Opción 9");
                         break;
                     case 10:
-                        System.out.println("FINAL DEL PROGRAMA");
+                        System.out.print("FINAL DEL PROGRAMA");
                         programaEnEjecucion = false;
                         break;
                 }
