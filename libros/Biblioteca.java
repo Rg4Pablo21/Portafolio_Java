@@ -6,7 +6,7 @@ public class Biblioteca {
     System.out.println("Biblioteca");
 
     libros libro1=new libros("libro1111","PEPE","1994");
-    libros libro2= new libros("Libro2222","Saudy","2002");
+    libros libro2= new libros("Libro2222","Mario Vargas","2002");
     libros libro3 = new libros("1984", "George Orwell", "1949");
     libros libro4 = new libros("Matar a un ruiseñor", "Harper Lee", "1960");
     libros libro5 = new libros("Crimen y castigo", "Fiódor Dostoyevski", "1866");
@@ -15,8 +15,6 @@ public class Biblioteca {
     libros libro8 = new libros("En busca del tiempo perdido", "Marcel Proust", "1913-1927");
     libros libro9 = new libros("La Odisea", "Homero", "Siglo VIII a.C.");
     libros libro10 = new libros("El gran Gatsby", "F. Scott Fitzgerald", "1925");
-
-
 
 
 
