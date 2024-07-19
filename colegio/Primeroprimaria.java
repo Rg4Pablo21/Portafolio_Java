@@ -1,5 +1,4 @@
 package colegio;
-
 public class Primeroprimaria {
     public static void programa(){
         Estudiante estudiante1= new Estudiante("Diego","diego@gmail.com","IV Computación","5","true");

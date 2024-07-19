@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Imprimir el banner una vez al inicio
+
         Banner.mensaje_1();
 
         // Lista de opciones
@@ -27,7 +27,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         do {
-            // Limpiar la consola y cargar las opciones
             System.out.println("\nSeleccione una opción:");
             Lista_opciones.cargarOpciones(listaDeOpciones);
 
@@ -51,7 +50,7 @@ public class Main {
                     Banner.mensaje_1();
                     break;
                 case 5:
-
+                    lista_de_compras.programa();
                     break;
                 case 6:
                     lista_de_compras.crearLista();
